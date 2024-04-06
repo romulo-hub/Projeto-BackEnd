@@ -15,16 +15,12 @@ para executar: npx serverest@latest
 
 ### Para executar os testes pela interface do cypress:
 - no terminal dentro do VScode execute o seguinte comando: npm test
-- para executar em modo headline
-- Ou execute: npm open cy:open
-- para executar na interface do Cypress
+- para executar a interface do Cypress
+- os cenarios para serem executados estão na pasta ( test )
+
 
 ## Plugin API Cypress
 - foi instalado o plugin API Cypress, ele faz ter uma melhor interface referente a os responses das requests, ele é usado na mesma função do cy.request
-
-### Pipeline
-- Esse projeto contem uma pipeline que pode ser executada dentro da aba
-( Actions )
 
 
  
