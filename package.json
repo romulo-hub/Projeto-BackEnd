@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test":"cypress run",
+    "cy:open": "cypress open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "cypress": "^9.5.3",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-localstorage-commands": "^2.2.5"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "dependencies": {
+    "cypress-plugin-api": "^2.11.1",
+    "joi": "^17.12.2"
+  }
+}
