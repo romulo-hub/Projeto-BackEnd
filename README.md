@@ -31,6 +31,4 @@
     de documentar o cenario e o passo a passo de como testar e de qual sera o resultado esperado do teste
     Essas informações do passo a passo que é o cucumber, se encontra nos arquivos Cadastro.feature e Falha.feature
 
-## Pipeline
-    Esse projeto contem uma pipeline CI que pode ser executada dentro do Github na aba ( Actions )
  
